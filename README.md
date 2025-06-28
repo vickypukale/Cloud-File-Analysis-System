@@ -6,10 +6,10 @@ This project demonstrates a **cloud-native architecture** where files uploaded t
 
 ## 🚀 Features
 
-- Upload file to Cloud Storage
-- Trigger Cloud Run service (via GCS event)
-- Extract file metadata: name, size, format
-- Publish metadata to a Pub/Sub topic
+- Upload file to Cloud Storage<br/>
+- Trigger Cloud Run service (via GCS event)<br/>
+- Extract file metadata: name, size, format<br/>
+- Publish metadata to a Pub/Sub topic<br/>
 - View results in Pub/Sub subscriber or logs
 
 ---
@@ -25,26 +25,30 @@ Cloud Storage --> Cloud Run (Trigger) --> Extract Metadata --> Publish to Pub/Su
 
 ## 📂 Repository Structure
 
-📁 your-project/
-├── README.md           # Project documentation
-├── index.js            # Core logic for metadata extraction & publishing
+📁 your-project/<br/>
+├── README.md           # Project documentation<br/>
+├── index.js            # Core logic for metadata extraction & publishing<br/>
 └── package.json        # Node.js project config & dependencies
 
 ## 🔧 Prerequisites
-Make sure you have the following:
-A Google Cloud Project
-Billing enabled
-Enabled APIs:
-  Cloud Run
-  Cloud Storage
-  Cloud Pub/Sub
-  Artifact Registry (if deploying from source)
-GitHub repo with index.js and package.json
-Node.js 18+ installed locally (for testing)
+Make sure you have the following:<br/>
+- A Google Cloud Project<br/>
+- Billing enabled<br/>
+- Enabled APIs:<br/>
+-- Cloud Run<br/>
+-- Cloud Storage<br/>
+-- Cloud Pub/Sub<br/>
+-- Artifact Registry (if deploying from source)<br/>
+- GitHub repo with index.js and package.json<br/>
+- Node.js 18+ installed locally (for testing)<br/>
 
 ## Format of results in Pub/Sub subscriber or logs
 
-  File name  < br / > File size (in bytes)  < br / > File format (extension)
+  File name  <br/> File size (in bytes)  <br/> File format (extension)
+
+![image](https://github.com/user-attachments/assets/7e861fed-3de9-441c-96ba-515d294c9239)
+![image](https://github.com/user-attachments/assets/412bcdfb-220f-480d-ac9d-d8379fed211c)
+
   
 This project is maintained by Vicky Pukale
 GitHub: https://github.com/vickypukale
