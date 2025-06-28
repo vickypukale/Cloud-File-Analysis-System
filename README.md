@@ -44,7 +44,7 @@ Node.js 18+ installed locally (for testing)
 
 ## Format of results in Pub/Sub subscriber or logs
 
-  File name   File size (in bytes)   File format (extension)
+  File name  < br / > File size (in bytes)  < br / > File format (extension)
   
 This project is maintained by Vicky Pukale
 GitHub: https://github.com/vickypukale
